@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <div class="container">
+        <header>
+            <div class="header-top">
+                <h1 id="theme-toggle">movie-finder/</h1>
+                <button id="theme-btn">Тёмная тема</button>
+            </div>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Введите название фильма...">
+                <button id="search-btn">Поиск</button>
+            </div>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-btn active" id="all-tab">Все фильмы</button>
+            <button class="tab-btn" id="favorites-tab">Избранное</button>
+        </div>
+
+        <div class="filter-menu">
+            <select id="year-filter">
+                <option value="">Все годы</option>
+            </select>
+
+            <select id="genre-filter">
+                <option value="">Все жанры</option>
+            </select>
+
+            <select id="country-filter">
+                <option value="">Все страны</option>
+            </select>
+
+            <select id="rating-filter">
+                <option value="">Любой рейтинг</option>
+                <option value="9">9+</option>
+                <option value="8">8+</option>
+                <option value="7">7+</option>
+                <option value="6">6+</option>
+            </select>
+        </div>
+
+        <div class="movies-grid" id="movies-grid">
+            <!-- Фильмы будут загружены здесь -->
+        </div>
+
+        <!-- Модальное окно для информации о фильме -->
+    <div id="movie-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-poster-container">
+                <img id="modal-poster" src="" alt="Постер фильма" class="modal-poster">
+            </div>
+            <div class="modal-info">
+                <h2 id="modal-title"></h2>
+                <div class="movie-details">
+                    <p><strong>Год:</strong> <span id="modal-year"></span></p>
+                    <p><strong>Режиссер:</strong> <span id="modal-director"></span></p>
+                    <p><strong>Страна:</strong> <span id="modal-country"></span></p>
+                    <p><strong>Рейтинг:</strong> <span id="modal-rating"></span></p>
+                    <p><strong>Жанр:</strong> <span id="modal-genre"></span></p>
+                </div>
+                <div class="movie-description">
+                    <h3>Описание:</h3>
+                    <p id="modal-description"></p>
+                </div>
+                <button id="favorite-btn">Добавить в избранное</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
