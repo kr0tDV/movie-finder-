@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Профессиональные воры, крадущие идеи прямо из подсознания людей.",
             poster: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg"
         },
-        // Новые добавленные фильмы
         {
             id: 6,
             title: "Леон",
@@ -113,7 +112,6 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Страдающий бессонницей офисный работник встречает загадочного торговца мылом.",
             poster: "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
         },
-        // Продолжение новых фильмов...
         {
             id: 11,
             title: "Матрица",
@@ -169,7 +167,6 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Бедная семья внедряется в жизнь богатых, что приводит к неожиданным последствиям.",
             poster: "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
         },
-        // Продолжаем добавлять фильмы до 45...
         {
             id: 16,
             title: "Достать ножи",
@@ -225,7 +222,6 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Парализованный морпех становится частью программы по освоению Пандоры.",
             poster: "https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2JkLTkwZDMtMzU5ZGY1ZDRhZTJkXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
         },
-        // Продолжаем до 45 фильмов...
         {
             id: 21,
             title: "Дюнкерк",
@@ -281,7 +277,6 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Каскадер подрабатывает водителем для грабителей, но однажды все идет не по плану.",
             poster: "https://m.media-amazon.com/images/M/MV5BZjY5ZjQyMjMtMmEwOC00Nzc2LTllYTItMmU2MzJjNTg1NjY0XkEyXkFqcGdeQXVyNjQ1MTMzMDQ@._V1_.jpg"
         },
-        // Остальные фильмы (26-45)...
         {
             id: 26,
             title: "Мстители: Финал",
